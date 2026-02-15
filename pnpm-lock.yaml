@@ -246,8 +246,8 @@ importers:
   extensions/blockrun:
     dependencies:
       '@blockrun/clawrouter':
-        specifier: ^0.1.0
-        version: 0.1.0(openclaw@)(typescript@5.9.3)(zod@4.3.6)
+        specifier: ^0.9.4
+        version: 0.9.4(openclaw@)(typescript@5.9.3)(zod@4.3.6)
     devDependencies:
       openclaw:
         specifier: workspace:*
@@ -834,9 +834,10 @@ packages:
     resolution: {integrity: sha512-6zABk/ECA/QYSCQ1NGiVwwbQerUCZ+TQbp64Q3AgmfNvurHH0j8TtXa1qbShXA6qqkpAj4V5W8pP6mLe1mcMqA==}
     engines: {node: '>=18'}
 
-  '@blockrun/clawrouter@0.1.0':
-    resolution: {integrity: sha512-irSHFIYRFQum5qAc877EGdJIyfmRreD9Yt+EbB3DQLXZUoyx/uObV0yoXvLXswTi3fhyN9R65b0iVq1donK3NQ==}
+  '@blockrun/clawrouter@0.9.4':
+    resolution: {integrity: sha512-PkaJwjLV7qRU5peNY9KDndT8QjeLRigr0Rf4yLodMlSx6TbokjzMTt9sZ76wwJSgG0pKhkbYW/URlC6TFylyEQ==}
     engines: {node: '>=20'}
+    hasBin: true
     peerDependencies:
       openclaw: '>=2025.1.0'
     peerDependenciesMeta:
@@ -6424,7 +6425,7 @@ snapshots:
 
   '@bcoe/v8-coverage@1.0.2': {}
 
-  '@blockrun/clawrouter@0.1.0(openclaw@)(typescript@5.9.3)(zod@4.3.6)':
+  '@blockrun/clawrouter@0.9.4(openclaw@)(typescript@5.9.3)(zod@4.3.6)':
     dependencies:
       viem: 2.45.1(typescript@5.9.3)(zod@4.3.6)
     optionalDependencies:
